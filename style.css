@@ -1,0 +1,134 @@
+:root{
+    --primary: rgb(48, 48, 221);
+    --black: black;
+    --font: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary);
+    color: var(--font);
+    height: 3000px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+.container h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--font);
+    margin-left: 1.5rem;
+}
+.container .container-nav a{
+    color: var(--font);
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 0 1rem;
+}
+.container .container-nav a:hover{
+    font-size: 1rem;
+}
+.container .login button{
+    width: 80px;
+    height: 30px;
+    background-color: var(--black);
+    color: var(--font);
+    margin-right: 1.5rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.container-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.container-title h1, h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.container-title p{
+    padding-top: 40px;
+}
+.menu{
+    padding: 8rem 7% 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+
+}
+.menu .row{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    justify-content: space-between;
+    width: 500px;
+}
+.menu .row .menu-card{
+    text-align: left;
+    padding-bottom: 6rem;
+    background-color: var(--font);
+    height: auto;
+    margin-top: 5rem;
+    color: var(--black);
+    padding: 10px;
+    border-radius: 5%;
+}
+.menu .row .menu-card .menu-card-title{
+    margin: 1rem auto 0.5rem;
+    margin-left: 1.2rem;
+}
+.menu .row .menu-card .menu-card-price{
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-left: 1.2rem;
+}
+.menu .row .menu-card .menu-card-price span{
+    font-size: 1rem;
+}
+.menu .row .menu-card p{
+    font-size: 10px;
+    padding-bottom: 30px;
+    margin-left: 1.2rem;
+}
+.menu .row .menu-card button{
+    background-color: var(--primary);
+    width: 290px;
+    height: 30px;
+    margin-left: 1.2rem;
+    border-radius: 3%;
+    color: var(--font);
+    cursor: pointer;
+}
+.menu .row .menu-card button:hover{
+    height: 35px;
+}
+.menu .row .menu-card h5{
+    margin-left: 1.2rem;
+    padding-top: 20px;
+}
+
+.menu .row .menu-card .cek{
+    margin-left: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.menu .row .menu-card .check{
+    background-color: var(--primary);
+    border-radius: 50%;
+    width: 15px;
+    color: var(--font);
+    height: 15px;
+}
